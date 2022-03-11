@@ -55,6 +55,7 @@ h5 {
 
 section {
     margin-top: 8rem;
+     height: 50vh;
 
 }
 
@@ -133,4 +134,21 @@ img {
         margin-top: 2rem;
     }
 
+}
+/****************Media view medium*******************/
+@media screen and (max-width: 1024px) {
+    header {
+        height: 68vh;
+    }
+}
+
+/****************Media view small******************/
+@media screen and (max-width: 1024px) {
+    header {
+        height: 100vh;
+    }
+    .header__Social,
+    .scroll__down {
+        display: none;
+    }
 }

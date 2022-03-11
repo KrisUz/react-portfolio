@@ -27,7 +27,7 @@ header {
     align-items: center;
     gap: 0.9rem;
     position: absolute;
-    left: 0;
+    left: 0.5rem;
     bottom: 3rem;
 }
 
@@ -35,7 +35,7 @@ header {
     content: "";
     width: 1px;
     height: 2rem;
-    background: var(--color-primary);
+    background: var(--color-bg-variant);
 }
 
 
@@ -56,9 +56,9 @@ header {
 
 .scroll__down {
     position: absolute;
-    right: 1rem;
+    right: -1.5rem;
     bottom: 5rem;
-    transform: rotate (90deg);
+    transform: rotate(90deg);
     font-weight: 300;
     font-size: 1rem;
 }
